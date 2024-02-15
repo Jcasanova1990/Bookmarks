@@ -4,7 +4,7 @@ module.exports = (req, res, next) => {
     let token = req.get('Authorization')
 
     if(token){
-        token = token.replace('Bearer', '')
+        token = token.replace('Bearer ', '')
 
         jwt.verify(token, process.env.SECRET, function(err, decoded){
             req.user = err ? null : decoded.user

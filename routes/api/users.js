@@ -20,5 +20,4 @@ Get Bookmarks By User
 */
 router.get('/bookmarks', checkToken, ensureLoggedIn, userCtrl.getBookmarksByUser, userCtrl.respondWithBookmarks)
 
-
 module.exports = router

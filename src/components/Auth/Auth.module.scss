@@ -1,0 +1,25 @@
+.h1 {
+    background-color: black; /* Change to black */
+    color: green; /* Change to green */
+    font-size: 2.5rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button {
+    background-color: black; /* Change to black */
+    color: green; /* Change to green */
+    font-size: 2.5rem;
+    min-height: 10rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.button:hover {
+    background-color: var(--hov-green); 
+    cursor: pointer;
+    font-size: 2rem;
+    color: black
+}

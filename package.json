@@ -1,5 +1,5 @@
 {
-  "name": "bookmarks",
+  "name": "bookmarks-Secure",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,12 +21,12 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "react-scripts start",
+    "client": "react-scripts --max-http-header-size=1024 start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3001/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
