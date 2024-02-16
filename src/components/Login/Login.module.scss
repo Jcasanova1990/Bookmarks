@@ -3,12 +3,19 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--text-dark);
+    border: 0px solid var(--text-dark);
     border-radius: .1vmin;
+
     input {
         font-size: 1vmin;
         border-radius: .1vmin;
         outline: none;
         height: 2vmin;
     }
+}
+.button:hover {
+    background-color: var(--hov-green); 
+    cursor: pointer;
+    font-size: 2rem;
+    color: black
 }

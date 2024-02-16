@@ -33,13 +33,20 @@
 .button:hover {
     background-color: var(--hov-green); 
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.13rem;
 }
 
 h2 {
     text-align: center;
     color: var(--text-black);
     font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color: var(--text-black);
+    font-size: 1rem;
     font-weight: bold;
 }
 

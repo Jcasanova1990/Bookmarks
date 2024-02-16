@@ -25,7 +25,6 @@ const login = async (req, res, next) => {
     if (!match) throw new Error('Password did not match')
     res.locals.data.user = user
     res.locals.data.token = createJWT(user)
-    console.log(res.locals.data)
     next()
   } catch (error) {
     res.status(400).json({ msg: error.message })

@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import styles from './Bookmark.module.scss'
-export default function Bookmark ({
+export default function Bookmark({
   bookmark,
   updateBookmark,
   deleteBookmark

@@ -18,3 +18,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.button:hover {
+    background-color: var(--hov-green); 
+    cursor: pointer;
+    font-size: 2rem;
+    color: black
+}

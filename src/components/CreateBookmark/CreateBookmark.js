@@ -7,6 +7,7 @@ export default function CreateBookmark ({
   return (
     <>
       <h2>Create A Bookmark</h2>
+      <h3>You can edit tag on the left by clicking it, then submit changes by pressing return.</h3>
       <div className={styles.container}>
         <form 
           className={styles.form}

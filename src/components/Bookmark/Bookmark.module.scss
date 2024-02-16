@@ -28,3 +28,10 @@ li {
     padding: 1.5vmin;
 }
 
+.button:hover {
+    background-color: var(--hov-green); 
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+}
+
