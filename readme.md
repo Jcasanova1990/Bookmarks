@@ -3,7 +3,7 @@
 # Step 3 npm run client
 # step 4 npm run start
 
-here you can add,create or edit bookmarks
+here you can add,create or edit users and bookmarks
 
                                                 ----Important----
 "This Mern app uses bcryptjs instead of bcrypt change according to user standard. 
