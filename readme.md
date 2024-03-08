@@ -48,6 +48,4 @@ Javascript
 
 
                                                 ----Important----
-"This Mern app uses bcryptjs instead of bcrypt change according to user standard"
-"NOTE = anytime you make a change you must delete build and re-follow steps above in order to see a reflection on server"
-"i.e = rcss, css, buttons etc."
+"This Mern app uses bcryptjs instead of bcrypt change according to user standard NOTE = anytime you make a change you must delete build and re-follow steps above in order to see a reflection on server i.e = rcss, css, buttons etc.
