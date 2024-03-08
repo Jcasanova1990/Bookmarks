@@ -47,5 +47,5 @@ Javascript
 # npm run start(to start server)
 
 
-----Important----
+                                                                                    ----Important----
 "This MERN app uses bcryptjs instead of bcrypt. Change according to user standard. NOTE: Anytime you make a change, you must delete the build and re-follow steps above in order to see a reflection on the server, i.e., CSS, scss, buttons, etc."
