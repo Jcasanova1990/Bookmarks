@@ -48,4 +48,4 @@ Javascript
 
 
                                                                                     ----Important----
-"This MERN app uses bcryptjs instead of bcrypt. Change according to user standard. NOTE: Anytime you make a change, you must delete the build and re-follow steps above in order to see a reflection on the server, i.e., CSS, scss, buttons, etc."
+"THIS MERN APP USES BCRYPTJS INSTEAD OF BCRYPT. CHANGE ACCORDING TO USER STANDARD. NOTE: ANYTIME YOU MAKE A CHANGE, YOU MUST DELETE THE BUILD AND RE-FOLLOW STEPS ABOVE IN ORDER TO SEE A REFLECTION ON THE SERVER, I.E., CSS, BUTTONS, ETC."
