@@ -1,4 +1,4 @@
-:root{
+:root {
     --offLgreen: #54f046;
     --text-Dgreen: #018501;
     --hov-green: rgb(0, 255, 0);
@@ -6,21 +6,23 @@
     --text-black: #000000;
 }
 
-
 body {
+    background-image: url(https://wallpapers.com/images/hd/romantic-sakura-tree-pathway-ef9wtrc3634biz0h.jpg);
+    background-size: cover;
     margin: 0;
     padding: 1vw;
     height: 100vh;
-    background-color: var(--offLgreen);
+    background-color: whitesmoke;
     color: var(--text-black);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .button:hover {
-    background-color: var(--hov-green); 
+    background-color: pink;
     cursor: pointer;
     font-size: 2rem;
-    color: black
+    color: black;
 }

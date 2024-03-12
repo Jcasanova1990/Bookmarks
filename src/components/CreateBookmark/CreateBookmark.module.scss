@@ -1,10 +1,16 @@
+body{
+    display:flex;
+    align-items: center;
+}
+
 .form {
     align-self: center;
-    display: grid;
+    
     grid-template-columns: 1fr 2fr;
     gap: 1.25vmin;
     color: var(--text-light);
-    min-height: 8rem;;
+    min-height: 8rem;
+
     label{
      font-size: 2.5vmin;
      font-weight: bold;
@@ -16,7 +22,7 @@
         justify-content: space-around;
         align-items: center;
     }
-    input {
+    input {gap: 40%;
         padding: 1vmin;
         font-size: 2vmin;
         border: .1vmin solid var(--text-black);
@@ -24,16 +30,18 @@
     .button {
         margin: 1vmin;
         padding: 1vmin;
-        color: var(--offwhite);
-        background-color: var(--text-Dgreen);
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 192, 203, 0.856);
         border-radius: .5vmin;
         min-height: 4rem;
+        min-width: 20%;
+        width: 40%;
     }
 }
 .button:hover {
-    background-color: var(--hov-green); 
+    background-color: rgb(255, 192, 203); 
     cursor: pointer;
-    font-size: 1.13rem;
+    animation: glow 2s infinite;
 }
 
 h2 {
@@ -55,4 +63,13 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+    100% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
 }
