@@ -28,7 +28,7 @@ export default function Bookmark({
         <button
           onClick={() => deleteBookmark(bookmark._id)}
         >
-          Delete Me
+          Delete
         </button>
       </li>
     </>

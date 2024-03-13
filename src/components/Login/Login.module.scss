@@ -1,17 +1,67 @@
-form {
+// Login.module.scss
+
+.login-form {
+    border: 0px solid var(--text-dark);
+    border-radius: .1vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0px solid var(--text-dark);
-    border-radius: .1vmin;
+    padding-bottom: 3vh;
 
-    input {
-        font-size: 1vmin;
-        border-radius: .1vmin;
-        outline: none;
-        height: 2vmin;
+    h2 {
+        color: whitesmoke;
+    }
+
+    input[type='text'],
+    input[type='password'] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 77%;
+        height: 10%;
+
+        // Styles for individual input fields
+        &:first-of-type {
+            color: whitesmoke;
+            // Styles for the first input (email)
+            // Add specific styles for the email input field
+        }
+
+        &:last-of-type {
+            color: whitesmoke;
+            // Styles for the last input (password)
+            // Add specific styles for the password input field
+        }
+
+    }
+
+    input[type='submit'] {
+        color: whitesmoke;
+        width: 88%;
+        height: 38px;
+        border-radius: 5px;
+        background-color: rgba(255, 192, 203, 0.747);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(255, 192, 203, 0.925);
+            color: rgb(255, 255, 255);
+            animation: glow 2s infinite;
+        }
     }
 }
 
-
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+    100% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+}

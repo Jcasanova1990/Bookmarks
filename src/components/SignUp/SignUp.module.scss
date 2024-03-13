@@ -1,0 +1,65 @@
+// base.scss
+
+.SignUp {
+    // Styles for the SignUp component container
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 35.9%;
+  }
+  
+  .SignUp h2 {
+    // Styles for the heading
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .SignUp form { background-color: rgba(255, 192, 203, 0)
+    // Styles for the form container
+  }
+  
+  .SignUp input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  // Define specific styles for input fields with different types if needed
+  .SignUp input[type='text'] { background-color: whitesmoke
+    // Styles for text input fields
+  }
+  
+  .SignUp input[type='password'] { background-color: whitesmoke
+    // Styles for password input fields
+  }
+  
+  .SignUp input[type='submit'] {
+    // Styles for submit button
+    background-color: rgba(255, 255, 255, 0.836);
+    color: pink;
+    border: none;
+    cursor: pointer;
+    width: 57%;
+    height: 10%;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  
+    &:hover {
+      background-color:rgba(255, 192, 203, 0.925);
+      color: rgb(255, 255, 255);
+      animation: glow 2s infinite;
+    }
+  }
+  
+  @keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+    100% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+}

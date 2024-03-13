@@ -18,7 +18,7 @@ export default function BookmarkList ({
                 />
               ))
               : <>
-                <h2>No Bookmarks Yet... Add one in the Form Above</h2>
+                <h2>No Bookmarks</h2>
                 </>
         }
     </ul>

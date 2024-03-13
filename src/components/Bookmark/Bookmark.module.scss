@@ -1,6 +1,6 @@
 button {
-    background-color: var(--text-Dgreen);
-    color: var(--text-black);
+    background-color: whitesmoke;
+    color: pink;
     border-radius: .5vmin;
     margin: 1vmin;
     font-size: 2vmin;
@@ -12,7 +12,7 @@ button {
 a, a:visited, a:link {
     text-decoration: none;
     cursor: pointer;
-    color: var(--text-black);
+    color:rgb(0, 0, 0);
 }
 
 li {
@@ -29,9 +29,23 @@ li {
 }
 
 .button:hover {
-    background-color: var(--hov-green); 
+    background-color: pink; 
     cursor: pointer;
     color: black;
     font-size: 2rem;
+    animation: glow 2s infinite;
 }
-
+button:hover {
+    background-color: rgba(255, 192, 203, 0.726); 
+    cursor: pointer;
+    color: whitesmoke;
+    animation: glow 2s infinite;
+}
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+    100% {
+        filter: drop-shadow(0 0 30px rgba(255, 123, 0, 0.856));
+    }
+}
