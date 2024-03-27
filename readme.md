@@ -1,6 +1,6 @@
 # Bookmarks
 
-[LiveLink](https://bookmarks.jeremycasanova.me/)
+[LiveLink](https://bookmarkz.jeremycasanova.me/)
 
 # Technologies used
 
